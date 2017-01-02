@@ -1,0 +1,40 @@
+.About
+	@extend .Section
+	display flex
+	flex-direction row
+
+	+below('m')
+		flex-direction column
+
+	&-heading
+		flex-basis 53%
+		font-family BB
+		font-size 1.875em
+		line-height 1
+		margin 0
+		padding 0
+
+	&-text
+		flex-basis 47%
+		font-size 0.875em
+		line-height 1.6
+		margin-top 0.1em
+
+		p
+			margin 0 0 1em 0
+
+		ul
+			padding 0
+			margin 0
+
+		li
+			list-style-type none
+
+		address
+			font-style normal
+			font-family BB
+			font-size 1.5em
+
+
+		+below('m')
+			margin-top 2em

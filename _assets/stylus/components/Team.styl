@@ -1,0 +1,57 @@
+.Team
+	@extend .Section
+	display flex
+	flex-direction row
+
+	+below('m')
+		flex-direction column
+
+
+	&-heading
+		@extend .About-heading
+		flex-basis 30%
+
+	&-members
+		padding 0
+		flex-basis 70%
+		margin 0
+
+		+below('m')
+			margin-top 2em
+			flex-basis 100%
+
+	&-member
+		list-style-type none
+		padding 0
+		margin 0
+		display flex
+		flex-direction row
+		justify-content space-between
+		align-items flex-start
+		margin-bottom 100px
+		+below('s')
+			flex-direction column
+
+	&-memberProfile
+		width 28%
+		display block
+		height auto
+		+below('s')
+			width 100%
+			margin-bottom 2em
+
+	&-memberBio
+		width 67.2%
+		p
+			margin 0 0 1em 0
+
+		+below('s')
+			width 100%
+
+.email-arrow
+	width 1.6em
+	height 0.74em
+	position relative
+	display inline-block
+	vertical-align middle
+	margin-right 0.3em

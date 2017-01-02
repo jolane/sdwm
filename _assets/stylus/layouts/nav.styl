@@ -1,0 +1,57 @@
+.Nav
+	height 0
+	width 100%
+	background-color gray
+	transition height 0.3s ease-out
+	overflow hidden
+	position fixed
+	top 0
+	left 0
+	z-index 1000
+
+	&-inner
+		box-sizing border-box
+		display flex
+		flex-direction row
+		align-items flex-start
+		padding header-height 5%
+		height 100vh
+		+above(1440px)
+			width 1420px
+			position relative
+			margin 0 auto
+		+below('s')
+			flex-direction column
+
+	body.nav-open &
+		height 100vh
+
+	&-list
+		padding 0
+		margin 0
+		width 50%
+		+below('s')
+			margin-top 2em
+			margin-bottom 6em
+			width 100%
+
+
+	&-item
+		list-style-type none
+		font-family BB
+		font-size 3.25em
+		line-height 1.1
+		margin 0
+		padding 0
+
+	&-address
+		font-style normal
+		font-family M
+		font-size 1.5em
+		line-height 1.4
+		font-weight normal
+
+	&-social
+		display none
+		+below('s')
+			display block

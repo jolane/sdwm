@@ -1,0 +1,49 @@
+---
+layout: default
+title: Home
+---
+
+<section class="Intro">
+	<div class="Intro-text">
+		We are an<br>
+		independent<br>
+		creative agency<br>
+		dedicated to<br>
+		making<br>
+		brands
+	</div>
+</section>
+
+
+{% for project in site.projects %}
+	<section class="LatestWork">
+		<div class="LatestWork-background" style="background-image: url({{site.baseurl}}/assets/images/{{project.poster}});"></div>
+		<div class="LatestWork-content">
+			<div class="LatestWork-heading">
+				Latest work
+			</div>
+			<div class="LatestWork-workTitle">
+				{{ project.home-text }}
+			</div>
+			<a href="{{project.url}}" title="{{project.title}}" class="NextButton">
+				<svg class="icon circle-arrow">
+					<use xlink:href="#circle-arrow"></use>
+				</svg>
+			</a>
+		</div>
+	</section>
+{% endfor %}
+
+<section class="Home">
+	<div class="Home-heading">
+		About
+	</div>
+	<div class="Home-message">
+		We’re an advertising and design <br>agency focused on ...
+	</div>
+	<a href="{{site.baseurl}}/about-us" title="{{project.title}}" class="NextButton">
+		<svg class="icon circle-arrow">
+			<use xlink:href="#circle-arrow"></use>
+		</svg>
+	</a>
+</section>

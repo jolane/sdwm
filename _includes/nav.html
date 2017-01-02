@@ -1,0 +1,30 @@
+<nav class="Nav">
+	<div class="Nav-inner">
+		<ul class="Nav-list">
+{% for item in site.data.nav %}
+			<li class="Nav-item">
+				<a href="{{site.baseurl}}/{{item | slugify }}" title="{{item}}" class="Nav-link">{{item}}</a>
+			</li>
+{% endfor %}
+		</ul>
+		<address class="Nav-address">
+			+61 45465153153<br>
+			<a href="mailto:hello@sdwm.com.au">hello@sdwm.com.au</a><br>
+			104 Dover St Cremorne
+		</address>
+		<div class="Nav-social">
+			<div class="Social">
+				<a href="{{twitter_url}}" target="_blank" class="Social-link" title="Twitter">
+					<svg class="icon social-twitter">
+						<use xlink:href="#social-twitter"></use>
+					</svg>
+				</a>
+				<a href="{{instagram_url}}" target="_blank" class="Social-link" title="Instagram">
+					<svg class="icon social-instagram">
+						<use xlink:href="#social-instagram"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>

@@ -1,0 +1,38 @@
+.ProjectIntro
+	@extend .Section
+	display flex
+	flex-direction row
+	justify-content space-between
+	align-items flex-start
+	+below('m')
+		flex-direction column
+
+	&-heading
+		font-family BB
+		font-size 1.875em
+		line-height 1.2
+		width 42%
+		+below('m')
+			width 100%
+			margin-bottom 1em
+
+	&-content
+		width 42%
+		max-height 10em
+		overflow hidden
+		transition all 0.3s ease-out
+		body.details-expanded &
+			max-height 30em
+		p
+			margin 0 0 1em 0
+
+		+below('m')
+			width 100%
+
+	&-controls
+		cursor pointer
+		&:before
+			content '+ '
+			font-family "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace
+			body.details-expanded &
+				content '- '

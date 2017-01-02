@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+
+<section class="ProjectIntro">
+	<div class="ProjectIntro-heading">
+		{{page.title}}<br>
+		{{page.sub-title}}
+	</div>
+
+	<div class="ProjectIntro-content">
+		<div class="ProjectIntro-text">
+			{{content}}
+		</div>
+	</div>
+	<div class="ProjectIntro-controls js-toggle-details">
+		Details
+	</div>
+</section>
+
+
+
+{% for section in page.sections %}
+	{% if section.type == 'video' %}
+		<section class="Video">
+			<iframe src="https://player.vimeo.com/video/149008769?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</section>
+	{% elsif section.type == 'image' %}
+		<section class="Image">
+			<img src="{{site.baseurl}}{{section.src}}" alt="{{section.alt}}">
+		</section>
+	{% endif %}
+{% endfor %}

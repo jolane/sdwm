@@ -1,0 +1,38 @@
+.Header
+	width 100%
+	height header-height
+	position fixed
+	top 0
+	left 0
+	background-color black
+	z-index 1001
+	transition all 0.1s linear 0.2s
+
+	&-inner
+		height 100%
+		width 100%
+		padding 0 5%
+		display flex
+		flex-direction row
+		justify-content space-between
+		align-items center
+		+below('m')
+			padding 0 8%
+		+above(1440px)
+			width 1420px
+			margin 0 auto
+			position relative
+
+
+
+	body.nav-open &
+		background-color gray
+		transition all 0.1s linear 0s
+
+
+	&-logo
+		width 120px
+		height 35px
+		position relative
+		color white
+		display block

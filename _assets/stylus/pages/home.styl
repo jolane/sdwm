@@ -1,0 +1,44 @@
+.Home
+	height 100%
+	padding-top 10%
+	padding-bottom 10%
+	@extend .Section
+
+	&-heading
+		font-family CB
+		font-size 1.25em
+
+
+	&-message
+		font-family BB
+		font-size 3.5em
+		line-height 1.07
+		margin 3.8em 0
+		+below('m')
+			font-size 4vw
+			margin 4em 0
+
+.Image
+	width 100%
+	padding 0 3% 1em 3%
+
+	img
+		display block
+		width 100%
+
+
+.Video
+	position relative
+	width 94%
+	margin 0 auto 1em auto
+	&:before
+		content ''
+		display block
+		padding-bottom 56.25%
+
+	iframe
+		position absolute
+		top 0
+		left 0
+		height 100%
+		width 100%

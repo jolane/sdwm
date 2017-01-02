@@ -1,0 +1,19 @@
+<svg id="3cc84593-8d5d-40d7-968c-2bf8286e1214" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="37.5" height="37.5" viewBox="0 0 37.5 37.5">
+  <defs>
+    <style>
+      .\38 c93565b-5760-48bf-bcd2-272a378b87cd {
+        fill: #fff;
+      }
+
+      .\30 f0f57db-9d13-4742-ad4c-d26480d28664 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <title>Untitled-1</title>
+  <path class="8c93565b-5760-48bf-bcd2-272a378b87cd" d="M9.24,20.53H29.58L25.7,24.4a.47.47,0,0,0,.66.66l4.73-4.73a.47.47,0,0,0,0-.66l-4.73-4.73a.47.47,0,0,0-.66.66l4,4H9.24a.47.47,0,1,0,0,.93Z" transform="translate(-1.25 -1.25)"/>
+  <circle class="0f0f57db-9d13-4742-ad4c-d26480d28664" cx="18.75" cy="18.75" r="18"/>
+</svg>

@@ -1,0 +1,18 @@
+markdown: kramdown
+url:
+staging_url:
+baseurl:
+exclude: ['README.md', '.gitignore', 'package.json', 'node_modules', 'Gemfile.lock', 'Gemfile', '_assets', '_tests']
+permalink: pretty
+gems:
+  - jekyll-sitemap
+keep_files: ['assets']
+ga_code: UA-XXXXX-X
+title: SDWM
+description: SDWM
+collections:
+  projects:
+    output: true
+    path: /projects/:path/
+twitter_url:
+instagram_url:

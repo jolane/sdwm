@@ -1,0 +1,49 @@
+lineColour = gold
+lineThickness = 2px
+
+.Hamburger
+	height 20px
+	width 26px
+	position relative
+	cursor pointer
+
+	&-line
+		width 100%
+		height lineThickness
+		position absolute
+		top 50%
+		transform translateY(-50%)
+		left 0
+		background-color lineColour
+		transition all 0.3s linear
+
+		&:first-child
+			top 0
+			transition top 0.2s linear 0.2s, transform 0.2s linear 0s
+
+		&:nth-child(2)
+			transition transform 0.2s linear 0s
+
+		&:last-child
+			top 100%
+			transition top 0.2s linear 0.2s, transform 0.2s linear 0s
+
+		body.scroll-past-menu &
+			background gradient
+		body.menu-open &
+			background lineColour
+
+
+	body.menu-open &-line
+		top 50%
+		transform rotate(45deg)
+
+		&:first-child
+			transition top 0.2s linear, transform 0.2s linear 0.2s
+
+		&:nth-child(2)
+			transition transform 0.2s linear 0.2s
+
+		&:last-child
+			transform rotate(-45deg)
+			transition top 0.2s linear, transform 0.2s linear 0.2s

@@ -1,0 +1,118 @@
+---
+layout: default
+title: About us
+---
+
+
+<section class="About">
+	<h3 class="About-heading">
+		Our Story
+	</h3>
+	<div class="About-text">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iacutlis turpis pretium non. Etiam a mauris in felis viverra sodales. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar. Suspendisse elit nibh, convallis nec fermentum id, posuere ut sem. Nunc facilisis ipsum sit amet finibus.</p>
+		<p>Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar. Suspendisse </p>
+	</div>
+</section>
+
+
+<section class="About">
+	<h3 class="About-heading">
+		What we do
+	</h3>
+	<div class="About-text">
+		<ul>
+			<li>Brand Strategy</li>
+			<li>Naming Generation</li>
+			<li>Brand Identity</li>
+			<li>Brand Campaigns</li>
+			<li>Digital Design</li>
+			<li>Website Design</li>
+			<li>Art Direction</li>
+			<li>Publication Design</li>
+			<li>Annual Reports</li>
+			<li>Signage & Environmental</li>
+			<li>Print Communication</li>
+			<li>Packaging Design</li>
+			<li>Photography</li>
+			<li>Copywriting</li>
+		</ul>
+	</div>
+</section>
+
+<section class="About">
+	<h3 class="About-heading">
+		Areas of expertise
+	</h3>
+	<div class="About-text">
+		<ul>
+			<li>Arts & Culture</li>
+			<li>Festivals & Events</li>
+			<li>Architecture & Interior Design</li>
+			<li>Property Development</li>
+			<li>Corporate</li>
+			<li>Government</li>
+			<li>Hospitality</li>
+			<li>Fashion & Retail</li>
+			<li>Non-for-profit</li>
+		</ul>
+	</div>
+</section>
+
+
+
+<section class="Team">
+	<h3 class="Team-heading">
+		Who we are
+	</h3>
+	<ul class="Team-members">
+{% for member in site.data.team %}
+		<li class="Team-member">
+			<img src="{{site.baseurl}}/assets/images/{{member.image}}" class="Team-memberProfile" alt="Profile Image - {{member.name}}">
+			<div class="Team-memberBio">
+				<p><strong>{{member.name}}</strong></p>
+				<p><strong>{{member.title}}</strong></p>
+				<br>
+				<p>
+					{{member.bio}}
+				</p>
+				<p>
+					<span class="email-arrow">
+						<svg class="icon">
+							<use xlink:href="#email-arrow"></use>
+						</svg>
+					</span>
+					<a href="mailto:{{member.email}}" title="Email {{member.name}}">{{member.email}}</a>
+				</p>
+			</div>
+		</li>
+{% endfor %}
+	</ul>
+</section>
+
+
+
+<section class="About">
+	<h3 class="About-heading">
+		Contact Us
+	</h3>
+	<div class="About-text">
+		<address>
+			104 Dover Street,<br>
+			Cremorne, Victoria 3121<br>
+			hello@sdwm.com.au<br>
+			(+61) 412 527 012
+		</address>
+		<div class="Social">
+			<a href="{{twitter_url}}" target="_blank" class="Social-link" title="Twitter">
+				<svg class="icon social-twitter">
+					<use xlink:href="#social-twitter"></use>
+				</svg>
+			</a>
+			<a href="{{instagram_url}}" target="_blank" class="Social-link" title="Instagram">
+				<svg class="icon social-instagram">
+					<use xlink:href="#social-instagram"></use>
+				</svg>
+			</a>
+		</div>
+	</div>
+</section>

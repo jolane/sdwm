@@ -1,0 +1,21 @@
+---
+- name: James Orr
+  title: Creative Director + Founder
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iaculis turpis pretium non. Etiam a mauris in felis viverra sodales. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar.
+  email: james@sdwm.com.au
+  image: profile.jpg
+- name: Elle Bullen
+  title: Creative Director + Founder
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iaculis turpis pretium non. Etiam a mauris in felis viverra sodales. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar.
+  email: elle@sdwm.com.au
+  image: profile.jpg
+- name: Jake Turnbull
+  title: Design Director + Founder
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iaculis turpis pretium non. Etiam a mauris in felis viverra sodales. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar.
+  email: jake@sdwm.com.au
+  image: profile.jpg
+- name: Jarrick Lay
+  title: Business Director + Founder
+  bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iaculis turpis pretium non. Etiam a mauris in felis viverra sodales. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar.
+  email: jarrick@sdwm.com.au
+  image: profile.jpg
