@@ -1,4 +1,9 @@
 ---
-- About us
-- Archive
-- Journal
+- title: Home
+  url:
+- title: Who we are
+  url: who-we-are
+- title: What we do
+  url: what-we-do
+- title: Our work
+  url: our-work

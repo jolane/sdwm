@@ -52,6 +52,8 @@
   "dependencies": {
     "flickity": "^2.0.4",
     "google-maps": "^3.2.1",
+    "imagesloaded": "4.1.1",
+    "scroll-to": "0.0.2",
     "svg4everybody": "^2.1.0"
   }
 }

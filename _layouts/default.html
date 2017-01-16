@@ -10,21 +10,18 @@
 		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css?bust={{ site.time | date: '%s' }}">
 		<script src="{{site.baseurl}}/assets/js/vendor/modernizr-custom.js"></script>
 	</head>
-	<body class="{{page.layout}} {{page.body_class}}">
+	<body class="{{page.layout}} {{page.body-class}}">
 		<div style="position:abolsute;height:0;width:0;overflow:hidden;display:none;">{% include svg.html %}</div>
 
 		<!--[if lt IE 10]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 		<main>
-
-{% include nav.html %}
 {% include header.html %}
 
 {{ content }}
 
 {% include footer.html %}
-
 		</main>
 
 		<script src="{{site.baseurl}}/assets/js/bundle.js?bust={{ site.time | date: '%s' }}"></script>

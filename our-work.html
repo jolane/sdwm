@@ -1,0 +1,34 @@
+---
+layout: default
+title: Our work
+body-class: our-work-page
+---
+
+
+{% assign projects = site.projects | sort: "order" %}
+
+{% for project in projects %}
+	<section class="LatestWork">
+		<div class="LatestWork-background" style="background-image: url({{site.baseurl}}/assets/images/{{project.poster}});"></div>
+		<div class="LatestWork-content">
+			<div class="LatestWork-heading">
+			</div>
+			<div class="LatestWork-workTitle">
+				{{ project.home-text }}
+			</div>
+			<div class="LatestWork-footer">
+				<a href="{{site.baseurl}}{{project.url}}" title="{{project.title}}" class="NextButton">
+					<svg class="icon circle-arrow">
+						<use xlink:href="#circle-arrow"></use>
+					</svg>
+				</a>
+
+				<div class="UpArrow UpArrow--down js-scroll-down">
+					<svg class="icon">
+						<use xlink:href="#up-arrow"></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endfor %}

@@ -1,0 +1,61 @@
+---
+layout: default
+title: Who we are
+---
+
+<section class="Team">
+	<h3 class="Team-heading">
+		Who we are
+	</h3>
+	<ul class="Team-members">
+{% for member in site.data.team %}
+		<li class="Team-member">
+			<img src="{{site.baseurl}}/assets/images/{{member.image}}" class="Team-memberProfile" alt="Profile Image - {{member.name}}">
+			<div class="Team-memberBio">
+				<p><strong>{{member.name}}</strong></p>
+				<p><strong>{{member.title}}</strong></p>
+				<br>
+				<p>
+					{{member.bio}}
+				</p>
+				<p>
+					<span class="email-arrow">
+						<svg class="icon">
+							<use xlink:href="#email-arrow"></use>
+						</svg>
+					</span>
+					<a href="mailto:{{member.email}}" title="Email {{member.name}}">{{member.email}}</a>
+				</p>
+			</div>
+		</li>
+{% endfor %}
+	</ul>
+</section>
+
+
+
+<section class="About">
+	<h3 class="About-heading">
+		Contact Us
+	</h3>
+	<div class="About-text">
+		<address>
+			104 Dover Street,<br>
+			Cremorne, Victoria 3121<br>
+			hello@sdwm.com.au<br>
+			(+61) 412 527 012
+		</address>
+		<div class="Social">
+			<a href="{{twitter_url}}" target="_blank" class="Social-link" title="Twitter">
+				<svg class="icon social-twitter">
+					<use xlink:href="#social-twitter"></use>
+				</svg>
+			</a>
+			<a href="{{instagram_url}}" target="_blank" class="Social-link" title="Instagram">
+				<svg class="icon social-instagram">
+					<use xlink:href="#social-instagram"></use>
+				</svg>
+			</a>
+		</div>
+	</div>
+</section>

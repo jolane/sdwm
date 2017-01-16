@@ -5,17 +5,43 @@ title: Home
 
 <section class="Intro">
 	<div class="Intro-text">
-		We are an<br>
-		independent<br>
-		creative agency<br>
-		dedicated to<br>
-		making<br>
-		brands
+		A long time ago<br>
+		on a high school<br>
+		English exam<br>
+		about something<br>
+		not important<br>
+		enough to<br>
+		remember, an<br>
+		impressed<br>
+		English teacher<br>
+		wrote the<br>
+		following.<br>
+		“A+. I couldn’t<br>
+		think of any<br>
+		words for how<br>
+		great this is, <br>
+		so I made some<br>
+		up… Sick Dog<br>
+		Wolf Man.”<br>
+		Four simple,<br>
+		strange words<br>
+		for when there<br>
+		are no words.<br>
+		For when<br>
+		something is<br>
+		better than the<br>
+		best. Which is<br>
+		exactly what we<br>
+		strive for in<br>
+		everything we<br>
+		do.
 	</div>
 </section>
 
 
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: "order" %}
+
+{% for project in projects %}
 	<section class="LatestWork">
 		<div class="LatestWork-background" style="background-image: url({{site.baseurl}}/assets/images/{{project.poster}});"></div>
 		<div class="LatestWork-content">

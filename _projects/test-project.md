@@ -4,6 +4,7 @@ title: La Trobe University
 sub-title: Living Landscape
 home-text: An experience by La Trobe University. <br>Inspired by David Hockney.
 poster: work-bg-100.jpg
+order: 1
 sections:
   - type: video
     poster:

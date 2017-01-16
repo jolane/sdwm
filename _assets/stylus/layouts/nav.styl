@@ -1,20 +1,23 @@
 .Nav
-	height 0
+	height 100vh
 	width 100%
 	background-color gray
-	transition height 0.3s ease-out
+	transition all 0.3s
 	overflow hidden
 	position fixed
 	top 0
 	left 0
 	z-index 1000
+	opacity 0
+	visibility hidden
 
 	&-inner
 		box-sizing border-box
 		display flex
-		flex-direction row
+		flex-direction column
 		align-items flex-start
-		padding header-height 5%
+		justify-content space-between
+		padding 5%
 		height 100vh
 		+above(1440px)
 			width 1420px
@@ -24,7 +27,8 @@
 			flex-direction column
 
 	body.nav-open &
-		height 100vh
+		opacity 1
+		visibility visible
 
 	&-list
 		padding 0
@@ -43,6 +47,13 @@
 		line-height 1.1
 		margin 0
 		padding 0
+		color white
+		transition all 0.2s linear
+		html.no-touchevents ^[0]-list:hover &
+			color #231f20
+		html.no-touchevents ^[0]-list:hover &:hover
+			color white
+
 
 	&-address
 		font-style normal

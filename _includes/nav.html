@@ -3,7 +3,7 @@
 		<ul class="Nav-list">
 {% for item in site.data.nav %}
 			<li class="Nav-item">
-				<a href="{{site.baseurl}}/{{item | slugify }}" title="{{item}}" class="Nav-link">{{item}}</a>
+				<a href="{{site.baseurl}}/{{ item.url }}" title="{{item.title}}" class="Nav-link">{{item.title}}</a>
 			</li>
 {% endfor %}
 		</ul>
