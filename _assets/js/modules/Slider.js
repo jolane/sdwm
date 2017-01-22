@@ -1,25 +1,28 @@
-const Flickity = require('flickity');
+const Flickity = require('flickity-imagesloaded');
 const imagesLoaded = require('imagesloaded');
-const Slider = document.querySelector('.Slider');
+const Sliders = document.querySelectorAll('.Slider');
+const flk = [];
 
-if(Slider) {
-	imagesLoaded( Slider, function() {
 
-		const flk = new Flickity(Slider, {
+if(Sliders) {
+	for (var i = 0; i < Sliders.length; i++) {
+		let sliderEl = Sliders[i];
+		flk[i] = new Flickity(sliderEl, {
 			cellSelector: '.Slider-slide',
 			prevNextButtons: false,
-			wrapAround: true
+			wrapAround: true,
+			imagesLoaded: true
 		});
 
 
-		const next = document.querySelector('.Slider-next');
-		next.addEventListener('click', function(e) {
-			flk.next();
-		});
-
-		const prev = document.querySelector('.Slider-prev');
-		prev.addEventListener('click', function(e) {
-			flk.previous();
-		});
-	});
+			// const next = document.querySelector('.Slider-next');
+			// next.addEventListener('click', function(e) {
+			// 	flk.next();
+			// });
+			//
+			// const prev = document.querySelector('.Slider-prev');
+			// prev.addEventListener('click', function(e) {
+			// 	flk.previous();
+			// });
+	}
 }

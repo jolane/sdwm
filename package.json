@@ -5,7 +5,7 @@
   "description": "Sick Dog Wolf Man",
   "main": "index.html",
   "scripts": {
-    "prestart": "npm-run-all fonts images js-vendor svg build:stylus",
+    "prestart": "npm-run-all fonts images js-vendor svg build:stylus videos",
     "start": "npm-run-all --parallel watch:* server",
     "watch:stylus": "mkdir -p _site/assets/css && stylus -w -u jeet -u rupture -u nib -o _site/assets/css/main.css _assets/stylus/",
     "build:stylus": "mkdir -p assets/css && stylus -u jeet -u rupture -u nib -o assets/css/main.css -c _assets/stylus/",
@@ -20,6 +20,9 @@
     "images": "imagemin _assets/images/*.* --out-dir=assets/images",
     "watch:images": "chokidar '_assets/images/*.*' -c 'npm run images'",
     "build:images": "rimraf assets/images/* && npm run images",
+    "watch:videos": "chokidar '_assets/videos/*.*' -c 'npm run videos'",
+    "build:videos": "npm run videos",
+    "videos": "mkdir -p assets/videos && cp _assets/videos/* assets/videos",
     "svg": "svg-sprite --config _config/svg-sprite.json _assets/svgs/*.svg",
     "watch:svg": "chokidar '_assets/svg/*.svg' -c 'npm run svg'",
     "build:svg": "npm run svg",
@@ -51,6 +54,7 @@
   },
   "dependencies": {
     "flickity": "^2.0.4",
+    "flickity-imagesloaded": "2.0.0",
     "google-maps": "^3.2.1",
     "imagesloaded": "4.1.1",
     "scroll-to": "0.0.2",

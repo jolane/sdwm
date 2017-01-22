@@ -1,0 +1,55 @@
+.iPad
+	position relative
+	width 100%
+
+	&-frame
+		width 100%
+		box-sizing border-box
+		padding 0 10%
+		display block
+
+	&-device
+		position relative
+		width 100%
+		&:after
+			content ''
+			display block
+			padding-bottom 69.12%
+
+		background-size contain
+		background-image url(../images/ipad-s.webp)
+		html.webp &
+			background-image url(../images/ipad-s.webp)
+		+above('m')
+			html.webp &
+				background-image url(../images/ipad-m.webp)
+			html.no-webp &
+				background-image url(../images/ipad-m.png)
+		+above('l')
+			html.webp &
+				background-image url(../images/ipad-l.webp)
+			html.no-webp &
+				background-image url(../images/ipad-l.png)
+		+above('xl')
+			html.webp &
+				background-image url(../images/ipad-xl.webp)
+			html.no-webp &
+				background-image url(../images/ipad-xl.png)
+
+	&-screen
+		top 15.9%
+		left 18.4%
+		height 68.7%
+		width 63.4%
+		z-index 100
+		position absolute
+
+	&-slider
+		height 100%
+		width 100%
+		overflow hidden
+	&-slide
+		height 100%
+		width 100%
+		background-size cover
+		background-position center center

@@ -6,113 +6,75 @@ title: What we do
 
 <section class="About">
 	<h3 class="About-heading">
-		Our Story
-	</h3>
-	<div class="About-text">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iacutlis turpis pretium non. Etiam a mauris in felis viverra sodales. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar. Suspendisse elit nibh, convallis nec fermentum id, posuere ut sem. Nunc facilisis ipsum sit amet finibus.</p>
-		<p>Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar. Suspendisse </p>
-	</div>
-</section>
-
-
-<section class="About">
-	<h3 class="About-heading">
 		What we do
 	</h3>
 	<div class="About-text">
-		<ul>
-			<li>Brand Strategy</li>
-			<li>Naming Generation</li>
-			<li>Brand Identity</li>
-			<li>Brand Campaigns</li>
-			<li>Digital Design</li>
-			<li>Website Design</li>
-			<li>Art Direction</li>
-			<li>Publication Design</li>
-			<li>Annual Reports</li>
-			<li>Signage & Environmental</li>
-			<li>Print Communication</li>
-			<li>Packaging Design</li>
-			<li>Photography</li>
-			<li>Copywriting</li>
-		</ul>
-	</div>
-</section>
-
-<section class="About">
-	<h3 class="About-heading">
-		Areas of expertise
-	</h3>
-	<div class="About-text">
-		<ul>
-			<li>Arts & Culture</li>
-			<li>Festivals & Events</li>
-			<li>Architecture & Interior Design</li>
-			<li>Property Development</li>
-			<li>Corporate</li>
-			<li>Government</li>
-			<li>Hospitality</li>
-			<li>Fashion & Retail</li>
-			<li>Non-for-profit</li>
-		</ul>
+		<p>Simply put, we’re problem solvers. Our process for delivering creative solutions is simple and gymnast level flexible. We can give you the works, or you can pick and mix the services you need.  If you don’t need us for all three of these areas that’s a-OK, but we still highly recommend that you have them covered to give your brand the best chance of success.</p>
 	</div>
 </section>
 
 
-
-<section class="Team">
-	<h3 class="Team-heading">
-		Who we are
-	</h3>
-	<ul class="Team-members">
-{% for member in site.data.team %}
-		<li class="Team-member">
-			<img src="{{site.baseurl}}/assets/images/{{member.image}}" class="Team-memberProfile" alt="Profile Image - {{member.name}}">
-			<div class="Team-memberBio">
-				<p><strong>{{member.name}}</strong></p>
-				<p><strong>{{member.title}}</strong></p>
-				<br>
-				<p>
-					{{member.bio}}
-				</p>
-				<p>
-					<span class="email-arrow">
-						<svg class="icon">
-							<use xlink:href="#email-arrow"></use>
-						</svg>
-					</span>
-					<a href="mailto:{{member.email}}" title="Email {{member.name}}">{{member.email}}</a>
-				</p>
-			</div>
-		</li>
-{% endfor %}
-	</ul>
-</section>
-
-
-
-<section class="About">
+<section class="About About--threeCol">
 	<h3 class="About-heading">
-		Contact Us
 	</h3>
-	<div class="About-text">
-		<address>
-			104 Dover Street,<br>
-			Cremorne, Victoria 3121<br>
-			hello@sdwm.com.au<br>
-			(+61) 412 527 012
-		</address>
-		<div class="Social">
-			<a href="{{twitter_url}}" target="_blank" class="Social-link" title="Twitter">
-				<svg class="icon social-twitter">
-					<use xlink:href="#social-twitter"></use>
-				</svg>
-			</a>
-			<a href="{{instagram_url}}" target="_blank" class="Social-link" title="Instagram">
-				<svg class="icon social-instagram">
-					<use xlink:href="#social-instagram"></use>
-				</svg>
-			</a>
-		</div>
+	<div class="About-intro">
+		Perhaps the most important step in building any brand, this is the creation of the blueprint that all communication activity will follow. We establish why and where a brand should sit in the market, and create a strategy for its growth.
+	</div>
+	<div class="About-list">
+		<ul>
+			<li>Research and understand the consumer</li>
+			<li>Assess the market and industry</li>
+			<li>Review the competition</li>
+			<li>Define the target market</li>
+			<li>Highlight relevant trends and insights</li>
+			<li>Establish brand purpose</li>
+			<li>Define potential brand territories</li>
+			<li>Define brand challenge</li>
+			<li>Creation of a master brand strategy document</li>
+		</ul>
+	</div>
+</section>
+<section class="About About--threeCol">
+	<h3 class="About-heading">
+	</h3>
+	<div class="About-intro">
+		This is where creativity comes into play to bring brand personality to life. Here we create the assets every brand needs to effectively communicate. How it looks, feels, talks and behaves, and its very reason to exist are defined in this phase.
+	</div>
+	<div class="About-list">
+		<ul>
+			<li>Brand platform creation</li>
+			<li>Identity design</li>
+			<li>Brand style Guide</li>
+			<li>Packaging</li>
+			<li>Tone of voice </li>
+			<li>Naming</li>
+			<li>Conceptual thinking</li>
+			<li>Product development</li>
+			<li>Business ideas</li>
+			<li>Creative workshops</li>
+		</ul>
+	</div>
+</section>
+<section class="About About--threeCol">
+	<h3 class="About-heading">
+	</h3>
+	<div class="About-intro">
+		When a brand knows what it’s all about, then it’s time to make sure the world knows all about it. This is where big ideas and communication services come into play.
+	</div>
+	<div class="About-list">
+		<ul>
+			<li>Integrated campaigns</li>
+			<li>TV & film advertising</li>
+			<li>Radio</li>
+			<li>Print & press</li>
+			<li>Social media </li>
+			<li>Content creation</li>
+			<li>Web design - Stunts & events</li>
+			<li>Product innovation</li>
+			<li>Promotional & experiential</li>
+			<li>PR & disruption ideas</li>
+			<li>Social media content and advertising</li>
+
+		</ul>
 	</div>
 </section>

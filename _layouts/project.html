@@ -28,7 +28,7 @@ layout: default
 {% for section in page.sections %}
 	{% if section.type == 'video' %}
 		<section class="Video">
-			<iframe src="https://player.vimeo.com/video/149008769?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="https://player.vimeo.com/video/{{section.code}}?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</section>
 	{% elsif section.type == 'image' %}
 		<section class="Image">
@@ -39,6 +39,20 @@ layout: default
 			{% for slide in section.slides %}
 			<img src="{{site.baseurl}}/assets/images/{{slide}}" class="Slider-slide">
 			{% endfor %}
+		</section>
+	{% elsif section.type == 'ipad' %}
+		<section class="iPad">
+			<div class="iPad-frame">
+				<div class="iPad-device">
+					<div class="iPad-screen">
+						<div class="iPad-slider">
+							{% for slide in section.slides %}
+							<div class="iPad-slide" style="background-image:url({{site.baseurl}}/assets/images/{{slide}});"></div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 	{% endif %}
 {% endfor %}

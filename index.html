@@ -40,10 +40,11 @@ title: Home
 
 
 {% assign projects = site.projects | sort: "order" %}
-
-{% for project in projects %}
+{% assign project = projects.first  %}
 	<section class="LatestWork">
-		<div class="LatestWork-background" style="background-image: url({{site.baseurl}}/assets/images/{{project.poster}});"></div>
+		<video autoplay loop poster="{{site.baseurl}}/assets/videos/project-livinglandscapes-01.jpg" class="LatestWork-background">
+			<source src="{{site.baseurl}}/assets/videos/project-livinglandscapes-01.mp4" type="video/mp4" >
+		</video>
 		<div class="LatestWork-content">
 			<div class="LatestWork-heading">
 				Latest work
@@ -51,23 +52,22 @@ title: Home
 			<div class="LatestWork-workTitle">
 				{{ project.home-text }}
 			</div>
-			<a href="{{project.url}}" title="{{project.title}}" class="NextButton">
+			<a href="{{site.baseurl}}/our-work" title="Our Work" class="NextButton">
 				<svg class="icon circle-arrow">
 					<use xlink:href="#circle-arrow"></use>
 				</svg>
 			</a>
 		</div>
 	</section>
-{% endfor %}
 
 <section class="Home">
 	<div class="Home-heading">
 		About
 	</div>
 	<div class="Home-message">
-		We’re an advertising and design <br>agency focused on ...
+		Sick Dog Wolf Man. An advertising and design agency dedicated to making things so impactful, so bold, so beautiful – that no other words will do.
 	</div>
-	<a href="{{site.baseurl}}/about-us" title="{{project.title}}" class="NextButton">
+	<a href="{{site.baseurl}}/what-we-do" title="{{project.title}}" class="NextButton">
 		<svg class="icon circle-arrow">
 			<use xlink:href="#circle-arrow"></use>
 		</svg>

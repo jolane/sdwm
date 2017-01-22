@@ -6,12 +6,36 @@ home-text: An experience by La Trobe University. <br>Inspired by David Hockney.
 poster: work-bg-100.jpg
 order: 1
 sections:
+  - type: image
+    src: /assets/images/project-livinglandscape-01.jpg
+  - type: slider
+    slides:
+      - project-livinglandscape-02.jpg
+      - project-livinglandscape-03.jpg
+      - project-livinglandscape-04.jpg
+      - project-livinglandscape-05.jpg
+      - project-livinglandscape-06.jpg
+      - project-livinglandscape-07.jpg
+      - project-livinglandscape-08.jpg
+  - type: ipad
+    slides:
+      - project-livinglandscape-ipad-02.jpg
+      - project-livinglandscape-ipad-03.jpg
+      - project-livinglandscape-ipad-04.jpg
+      - project-livinglandscape-ipad-05.jpg
+      - project-livinglandscape-ipad-06.jpg
   - type: video
-    poster:
-  - type: image
-    src: /assets/images/Asset8-100.jpg
-  - type: image
-    src: /assets/images/Asset9-100.jpg
+    code: 200095753
+  - type: slider
+    slides:
+      - project-mrburger-02.jpg
+      - project-mrburger-03.jpg
+      - project-mrburger-04.jpg
+      - project-mrburger-05.jpg
+      - project-mrburger-06.jpg
+      - project-mrburger-07.jpg
+  - type: video
+    code: 200096016
 ---
 
 

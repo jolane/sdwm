@@ -1,0 +1,13 @@
+<div class="Video">
+	<video autoplay loop poster="{{include.poster}}" class="Video-embed">
+	{% if include.webm %}
+		<source src="{{site.baseurl}}/assets/videos/{{include.webm}}" type="video/webm">
+	{% endif %}
+	{% if include.mp4 %}
+		<source src="{{site.baseurl}}/assets/videos/{{include.mp4}}" type="video/mp4">
+	{% endif %}
+	{% if include.ogg %}
+		<source src="{{site.baseurl}}/assets/videos/{{include.ogg}}" type="video/ogg">
+	{% endif %}
+	</video>
+</div>

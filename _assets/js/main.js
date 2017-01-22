@@ -3,6 +3,7 @@ var svg4everybody = new svg4everybody();
 
 require('./modules/Scrolling');
 require('./modules/Slider');
+require('./modules/iPad');
 
 
 var toggleNav = document.querySelector('.js-toggle-nav');
