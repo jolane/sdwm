@@ -28,12 +28,13 @@ sections:
     code: 200095753
   - type: slider
     slides:
-      - project-mrburger-02.jpg
-      - project-mrburger-03.jpg
-      - project-mrburger-04.jpg
-      - project-mrburger-05.jpg
-      - project-mrburger-06.jpg
-      - project-mrburger-07.jpg
+      - project-livinglandscape-09.jpg
+      - project-livinglandscape-10.jpg
+      - project-livinglandscape-11.jpg
+      - project-livinglandscape-12.jpg
+      - project-livinglandscape-13.jpg
+      - project-livinglandscape-14.jpg
+      - project-livinglandscape-15.jpg
   - type: video
     code: 200096016
 ---
