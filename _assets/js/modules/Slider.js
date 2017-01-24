@@ -1,5 +1,5 @@
 const Flickity = require('flickity-imagesloaded');
-const imagesLoaded = require('imagesloaded');
+// const imagesLoaded = require('imagesloaded');
 const Sliders = document.querySelectorAll('.Slider');
 const flk = [];
 

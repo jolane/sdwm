@@ -1,4 +1,4 @@
-const Flickity = require('flickity');
+const Flickity = require('flickity-imagesloaded');
 
 
 
@@ -10,6 +10,7 @@ if(iPad) {
 		prevNextButtons: false,
 		wrapAround: true,
 		autoPlay: 5000,
-		pageDots: false
+		pageDots: false,
+		imagesLoaded: true
 	});
 }

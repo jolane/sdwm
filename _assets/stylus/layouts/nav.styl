@@ -44,6 +44,7 @@
 		list-style-type none
 		font-family BB
 		font-size 6.25em
+		font-size 6.9vw
 		line-height 1.1
 		margin 0
 		padding 0
@@ -53,6 +54,11 @@
 			color #231f20
 		html.no-touchevents ^[0]-list:hover &:hover
 			color white
+		+above(1440px)
+			font-size 6.25em
+		+below('m')
+			font-size 12vw
+			line-height 1.2
 
 
 	&-address
@@ -61,6 +67,10 @@
 		font-size 1.5em
 		line-height 1.4
 		font-weight normal
+		a
+			text-decoration underline
+			&:hover
+				text-decoration none
 
 	&-social
 		display none

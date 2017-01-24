@@ -991,7 +991,7 @@
 	'use strict';
 	
 	var Flickity = __webpack_require__(/*! flickity-imagesloaded */ 11);
-	var imagesLoaded = __webpack_require__(/*! imagesloaded */ 30);
+	// const imagesLoaded = require('imagesloaded');
 	var Sliders = document.querySelectorAll('.Slider');
 	var flk = [];
 	
@@ -5520,7 +5520,7 @@
 
 	'use strict';
 	
-	var Flickity = __webpack_require__(/*! flickity */ 12);
+	var Flickity = __webpack_require__(/*! flickity-imagesloaded */ 11);
 	
 	var iPad = document.querySelector('.iPad');
 	
@@ -5530,7 +5530,8 @@
 			prevNextButtons: false,
 			wrapAround: true,
 			autoPlay: 5000,
-			pageDots: false
+			pageDots: false,
+			imagesLoaded: true
 		});
 	}
 
