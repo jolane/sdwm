@@ -40,8 +40,4 @@ sections:
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus sem id lacus sollicitudin volutpat. Mauris commodo turpis eu enim blandit accumsan. Nullam luctus tincidunt lacus, facilisis iaculis turpis pretium non.  Etiam a mauris in felis viverra sodales.
-
-Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar. Suspendisse elit nibh, convallis nec fermentum id, posuere ut sem. Nunc facilisis ipsum sit amet finibus. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros
-
-Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros vitae pulvinar. Suspendisse elit nibh, convallis nec fermentum id, posuere ut sem. Nunc facilisis ipsum sit amet finibus. Mauris a ipsum tempor, facilisis nibh et, bibendum justo. Fusce elementum sed arcu ac ornare. Sed rutrum eget eros
+La Trobe University believes in bold thinking with a difference. And as Official Learning Partner of the National Gallery of Victoria’s David Hockney exhibition they had the opportunity to prove it. Inspired by Hockney’s vibrant landscapes and designed to protect them, Living Landscapes is a hands-on experience that invites gallery goers to create a 3D plant in the same way that Hockney creates his art – via iPad. Using AR technology each plant is then added to an ever-growing virtual landscape at the installation. And for every plant drawn at the gallery, one is planted in reality at the La Trobe University Wildlife Sanctuary.  The result – art with an impact that united individuals with a like-minded university to help paint a greener future.
