@@ -9,3 +9,12 @@
 		width 1420px
 		position relative
 		margin 0 auto
+
+
+.LoadIn
+	opacity 0
+	transform translateY(20px)
+	transition all 0.3s ease-out 0.2s
+	&.is-in-view
+		opacity 1
+		transform translateY(0)

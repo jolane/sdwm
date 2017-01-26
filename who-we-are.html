@@ -31,9 +31,6 @@ title: Who we are
 {% endfor %}
 	</ul>
 </section>
-
-
-
 <section class="About">
 	<h3 class="About-heading">
 		Contact Us
@@ -45,16 +42,20 @@ title: Who we are
 			Cremorne, Victoria 3121<br>
 		</address>
 		<div class="Social">
-			<a href="{{twitter_url}}" target="_blank" class="Social-link" title="Twitter">
+			{% if site.data.social.twitter %}
+			<a href="{{site.data.social.twitter}}" target="_blank" class="Social-link" title="Twitter">
 				<svg class="icon social-twitter">
 					<use xlink:href="#social-twitter"></use>
 				</svg>
 			</a>
-			<a href="{{instagram_url}}" target="_blank" class="Social-link" title="Instagram">
+			{% endif %}
+			{% if site.data.social.instagram %}
+			<a href="{{site.data.social.instagram}}" target="_blank" class="Social-link" title="Instagram">
 				<svg class="icon social-instagram">
 					<use xlink:href="#social-instagram"></use>
 				</svg>
 			</a>
+			{% endif %}
 		</div>
 	</div>
 </section>

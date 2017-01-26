@@ -24,7 +24,7 @@
     "build:videos": "npm run videos",
     "videos": "mkdir -p assets/videos && cp _assets/videos/* assets/videos",
     "svg": "svg-sprite --config _config/svg-sprite.json _assets/svgs/*.svg",
-    "watch:svg": "chokidar '_assets/svg/*.svg' -c 'npm run svg'",
+    "watch:svg": "chokidar '_assets/svgs/*.svg' -c 'npm run svg'",
     "build:svg": "npm run svg",
     "watch:jekyll": "jekyll build --baseurl='' --watch",
     "build:jekyll": "jekyll build",
@@ -53,6 +53,7 @@
     "webpack": "^1.13.2"
   },
   "dependencies": {
+    "@vimeo/player": "2.0.1",
     "flickity": "^2.0.4",
     "flickity-imagesloaded": "2.0.0",
     "google-maps": "^3.2.1",

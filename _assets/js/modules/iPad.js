@@ -9,7 +9,7 @@ if(iPad) {
 		cellSelector: '.iPad-slide',
 		prevNextButtons: false,
 		wrapAround: true,
-		autoPlay: 5000,
+		autoPlay: 3000,
 		pageDots: false,
 		imagesLoaded: true
 	});

@@ -1,0 +1,23 @@
+@keyframes dash
+	to
+		stroke-dashoffset: 452.817627;
+		stroke-dasharray: 150.817626953125
+
+.Arrow
+	height 49px
+	width 49px
+	position relative
+
+	svg
+		height 100%
+		width 100%
+
+	&-path
+		stroke-dasharray 150.817626953125
+		stroke-dashoffset 150.817626953125
+		fill none
+		stroke white
+		stroke-miterlimit 50
+		stroke-width 1px
+		^[0].is-in-view &
+			animation dash 1s ease-in

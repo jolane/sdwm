@@ -10,9 +10,9 @@ keep_files: ['assets']
 ga_code: UA-XXXXX-X
 title: SDWM
 description: SDWM
+twitter: 'http://twitter.com'
+instagram_url:
 collections:
   projects:
     output: true
     path: /projects/:path/
-twitter_url:
-instagram_url:

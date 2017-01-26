@@ -12,8 +12,12 @@
 		</div>
 		<div class="Footer-col">
 			Follow us<br>
-			<a href="{{twitter_url}}" target="_blank" title="Twitter">Twitter</a><br>
-			<a href="{{instagram_url}}" target="_blank" title="Instagram">Instagram</a>
+			{% if site.data.social.twitter %}
+			<a href="{{site.data.social.twitter}}" target="_blank" title="Twitter">Twitter</a><br>
+			{% endif %}
+			{% if site.data.social.instagram %}
+			<a href="{{data.social.instagram}}" target="_blank" title="Instagram">Instagram</a>
+			{% endif %}
 		</div>
 		<div class="Footer-col">
 			<div class="UpArrow js-back-to-top">

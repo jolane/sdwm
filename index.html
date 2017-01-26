@@ -53,9 +53,7 @@ title: Home
 				{{ project.home-text }}
 			</a>
 			<a href="{{site.baseurl}}/our-work" title="Our Work" class="NextButton">
-				<svg class="icon circle-arrow">
-					<use xlink:href="#circle-arrow"></use>
-				</svg>
+				{% include Arrow.html %}
 			</a>
 		</div>
 	</section>
@@ -68,8 +66,6 @@ title: Home
 		Sick Dog Wolf Man. An advertising and design agency dedicated to making things so impactful, so bold, so beautiful – that no other words will do.
 	</div>
 	<a href="{{site.baseurl}}/what-we-do" title="{{project.title}}" class="NextButton">
-		<svg class="icon circle-arrow">
-			<use xlink:href="#circle-arrow"></use>
-		</svg>
+		{% include Arrow.html %}
 	</a>
 </section>
