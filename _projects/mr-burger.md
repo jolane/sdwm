@@ -3,7 +3,7 @@ layout: project
 title: Designing Australia’s
 sub-title: favourite burger brand.
 home-text: Designing Australia’s<br>favourite burger brand
-poster: work-mrburger-poster.jpg
+poster: project-mrburger-poster.jpg
 order: 2
 sections:
   - type: image
