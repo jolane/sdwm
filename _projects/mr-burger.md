@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Designing Australia’s
-sub-title: favourite burger brand.
+title: Mr Burger
+sub-title: Brand Identity
 home-text: Designing Australia’s<br>favourite burger brand
 poster: project-mrburger-poster.jpg
 order: 2
@@ -16,7 +16,6 @@ sections:
       - project-mrburger-05.jpg
       - project-mrburger-06.jpg
       - project-mrburger-07.jpg
-  - type: video
   - type: slider
     slides:
       - project-mrburger-08.jpg
