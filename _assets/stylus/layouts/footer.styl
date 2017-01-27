@@ -15,21 +15,33 @@
 		align-items flex-start
 		padding-top 3em
 		padding-bottom 3em
+		position relative
 		+below('m')
 			flex-direction column
-			align-items center
+			align-items flex-start
 
 	&-col
 		margin-right 52px
 		+below('m')
 			margin 0 0 1.5em 0
-			text-align center
+			text-align left
 		&:first-child
 			margin-right 100px
 			+below('m')
-				margin 0 0 1.5em 0
+				margin 0
 		&:last-child
 			margin-left auto
+			+below('m')
+				display none
+		&:nth-child(3)
+			+below('m')
+				position absolute
+				right 8%
 
 	address
 		font-style normal
+
+	&-heading
+		display block
+		+below('m')
+			display none

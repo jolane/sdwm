@@ -7,6 +7,9 @@
 	background-color black
 	z-index 1001
 	transition all 0.3s
+	+below('m')
+		height header-height-mobile
+
 
 	body.our-work-page &
 		background-color transparent
@@ -32,3 +35,7 @@
 		position relative
 		color white
 		display block
+		+below('s')
+			width 100px
+			height 29px
+			z-index 1001

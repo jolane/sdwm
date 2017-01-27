@@ -25,6 +25,10 @@
 			margin 0 auto
 		+below('s')
 			flex-direction column
+			&:before
+				content ''
+				display block
+				height 30px
 
 	body.nav-open &
 		opacity 1
@@ -36,7 +40,7 @@
 		width 100%
 		+below('s')
 			margin-top 2em
-			margin-bottom 6em
+			margin-bottom 2em
 			width 100%
 
 
@@ -71,8 +75,13 @@
 			text-decoration underline
 			&:hover
 				text-decoration none
+		+below('s')
+			font-size 1em
 
 	&-social
 		display none
 		+below('s')
 			display block
+			position absolute
+			right 8%
+			bottom 5vw
