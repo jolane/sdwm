@@ -21,11 +21,8 @@
 
 	&-content
 		width 42%
-		max-height 4.5em
 		overflow hidden
 		transition all 0.3s ease-out
-		body.details-expanded &
-			max-height 30em
 		p
 			margin 0 0 1em 0
 
@@ -34,6 +31,7 @@
 
 	&-controls
 		cursor pointer
+		display none
 		&:before
 			content '+ '
 			font-family "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace
