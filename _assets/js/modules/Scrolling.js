@@ -22,3 +22,26 @@ for(let i = 0; i < scrollDownButtons.length; i++) {
 		});
 	});
 }
+
+
+
+
+const bodyEl = document.querySelector('body');
+if(bodyEl.classList.contains('home-page')) {
+	let introHeight = document.querySelector('.Intro').offsetHeight;
+	let headerHeight = document.querySelector('.Header').offsetHeight;
+
+	// detect window scrolling
+	window.addEventListener('scroll', function(e) {
+		if(window.pageYOffset > headerHeight && window.pageYOffset < introHeight) {
+			bodyEl.classList.add('hide-header');
+			bodyEl.classList.remove('show-header');
+		} else if(window.pageYOffset > introHeight) {
+			bodyEl.classList.add('show-header');
+			bodyEl.classList.add('hide-header');
+		} else {
+			bodyEl.classList.remove('hide-header');
+			bodyEl.classList.remove('show-header');
+		}
+	});
+}

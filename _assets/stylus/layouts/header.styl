@@ -6,13 +6,23 @@
 	left 0
 	background-color black
 	z-index 1001
-	transition all 0.3s
+	transition margin 0.3s
 	+below('m')
 		height header-height-mobile
 
+	body.home-page &
+		position absolute
+	body.home-page.hide-header &
+		top header-height - header-height - header-height
+		position fixed
+	body.home-page.show-header &
+		margin-top header-height
 
-	body.our-work-page &
-		background-color transparent
+
+	// body.our-work-page &
+	// 	background-color transparent
+	// 	+below('m')
+	// 		background-color black
 
 	&-inner
 		height 100%
@@ -35,7 +45,11 @@
 		position relative
 		color white
 		display block
-		+below('s')
+		+below('m')
 			width 100px
 			height 29px
+			z-index 1001
+		+below('s')
+			width 90px
+			height 26px
 			z-index 1001

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+body-class: home-page
 ---
 
 <section class="Intro">
@@ -37,35 +38,33 @@ title: Home
 		we do.
 	</div>
 </section>
-
-
-{% assign projects = site.projects | sort: "order" %}
-{% assign project = projects.first  %}
-	<section class="LatestWork">
-		<video autoplay loop poster="{{site.baseurl}}/assets/videos/project-livinglandscapes-01.jpg" class="LatestWork-background">
-			<source src="{{site.baseurl}}/assets/videos/project-livinglandscapes-01.mp4" type="video/mp4" >
-		</video>
-		<div class="LatestWork-content">
-			<div class="LatestWork-heading">
-				Latest work
-			</div>
-			<a href="{{site.baseurl}}/our-work" title="Our Work" class="LatestWork-workTitle">
-				{{ project.home-text }}
-			</a>
-			<a href="{{site.baseurl}}/our-work" title="Our Work" class="NextButton">
-				{% include Arrow.html %}
-			</a>
+<section class="LatestWork">
+	<div class="LatestWork-background LatestWork-background--mobile" style="background-image: url({{site.baseurl}}/assets/images/project-livinglandscape-poster.jpg);"></div>
+	<video autoplay loop poster="{{site.baseurl}}/assets/videos/project-livinglandscapes-01.jpg" class="LatestWork-background LatestWork-background--video">
+		<source src="{{site.baseurl}}/assets/videos/project-livinglandscapes-01.mp4" type="video/mp4" >
+	</video>
+	<div class="LatestWork-content">
+		<div class="LatestWork-heading">
+			Latest work
 		</div>
-	</section>
-
+		<a href="{{site.baseurl}}/our-work" title="Our Work" class="LatestWork-workTitle">
+			An experience by La Trobe University. <br>Inspired by David Hockney.
+		</a>
+		<a href="{{site.baseurl}}/our-work" title="Our Work" class="NextButton">
+			{% include Arrow.html %}
+		</a>
+	</div>
+</section>
 <section class="Home Home--grey">
-	<div class="Home-heading">
-		About
+	<div class="Home-inner">
+		<div class="Home-heading">
+			About
+		</div>
+		<div class="Home-message">
+			Sick Dog Wolf Man. An advertising and design agency dedicated to making things so impactful, so bold, so beautiful – that no other words will do.
+		</div>
+		<a href="{{site.baseurl}}/what-we-do" title="{{project.title}}" class="NextButton">
+			{% include Arrow.html %}
+		</a>
 	</div>
-	<div class="Home-message">
-		Sick Dog Wolf Man. An advertising and design agency dedicated to making things so impactful, so bold, so beautiful – that no other words will do.
-	</div>
-	<a href="{{site.baseurl}}/what-we-do" title="{{project.title}}" class="NextButton">
-		{% include Arrow.html %}
-	</a>
 </section>

@@ -20,15 +20,22 @@
 		line-height 1.4
 		margin-top 0.1em
 
+		h4
+			font-size 1.875em
+			margin 2.5em 0 1em 0
+			line-height 1
+			&:first-child
+				margin-top 0
+
 		p
 			margin 0 0 1em 0
 
 		ul
-			padding 0
+			padding 0 0 0 1em
 			margin 0
 
 		li
-			list-style-type none
+			font-size inherit
 
 		address
 			font-style normal
@@ -58,3 +65,11 @@
 			margin-top 2em
 		ul
 			margin 0
+
+	&-graphic
+		position relative
+		width 3.5em
+		&:after
+			content ''
+			display block
+			padding-bottom 406%

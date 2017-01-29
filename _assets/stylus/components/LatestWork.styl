@@ -6,7 +6,7 @@
 		display block
 		padding-bottom 56.25%
 		+below('m')
-			padding-bottom 70%
+			padding-bottom 87.2%
 
 	&-content
 		height 100%
@@ -30,9 +30,15 @@
 		top 0
 		left 0
 		z-index 0
-		background-image url(../images/work-bg-100.jpg)
 		background-size cover
 		background-position center center
+		&--video
+			+below('m')
+				display none
+		&--mobile
+			display none
+			+below('m')
+				display block
 
 
 	&-heading
@@ -43,7 +49,9 @@
 		font-size 3.5em
 		line-height 1.07
 		+below('m')
-			font-size 4vw
+			font-size 5.3vw
+			padding-right 50%
+
 
 	&-footer
 		display flex

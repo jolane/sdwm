@@ -37,13 +37,15 @@ body
 	padding-top header-height + 10em
 
 	+below('m')
-		padding-top header-height + 7em
+		padding-top header-height-mobile + 7em
 
 	+below('s')
-		padding-top header-height + 4em
+		padding-top header-height-mobile + 4em
 
 	&.nav-open
 		overflow hidden
 
 	&.our-work-page
-		padding-top 0
+		padding-top header-height
+		+below('m')
+			padding-top header-height-mobile
