@@ -10,8 +10,8 @@ keep_files: ['assets']
 ga_code: UA-XXXXX-X
 title: SDWM
 description: SDWM
-twitter: 'http://twitter.com'
-instagram_url:
+twitter:
+instagram_url:  https://www.instagram.com/sickdogwolfman/
 collections:
   projects:
     output: true
