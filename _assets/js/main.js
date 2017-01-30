@@ -1,6 +1,3 @@
-var svg4everybody = require('svg4everybody');
-var svg4everybody = new svg4everybody();
-
 require('./modules/Scrolling');
 require('./modules/Slider');
 require('./modules/iPad');

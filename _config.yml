@@ -7,7 +7,7 @@ permalink: pretty
 gems:
   - jekyll-sitemap
 keep_files: ['assets']
-ga_code: UA-XXXXX-X
+ga_code: UA-91091144-1
 title: SDWM
 description: SDWM
 twitter:
