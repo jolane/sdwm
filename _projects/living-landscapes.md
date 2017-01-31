@@ -1,7 +1,7 @@
 ---
 layout: project
 title: La Trobe University
-sub-title: Living Landscape
+sub-title: Living Landscapes
 home-text: An experience by La Trobe University. <br>Inspired by David Hockney.
 poster: project-livinglandscape-poster.jpg
 order: 1
