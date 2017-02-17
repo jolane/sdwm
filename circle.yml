@@ -1,0 +1,19 @@
+machine:
+  environment:
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+dependencies:
+  post:
+    - bundle exec jekyll build
+test:
+  post:
+    - bundle exec htmlproofer ./_site --check-html --disable-external
+deployment:
+  prod:
+    branch: master
+    commands:
+      - > ftp -n <<EOF
+        open candlestick.dreamhost.com
+        user jolane n2nhM6Nt
+        cd jolane.net/sdwm
+        put index.html
+        EOF
