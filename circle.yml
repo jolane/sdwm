@@ -8,7 +8,8 @@ deployment:
   prod:
     branch: master
     commands:
-      - > ftp -n <<EOF
+      - >
+        ftp -n <<EOF
         open candlestick.dreamhost.com
         user jolane n2nhM6Nt
         cd jolane.net/sdwm
