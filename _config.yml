@@ -3,6 +3,7 @@ url:
 staging_url:
 baseurl:
 exclude:
+  - 'site_template'
   - 'README.md'
   - '.gitignore'
   - 'package.json'
