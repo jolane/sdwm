@@ -3,7 +3,7 @@ url:
 staging_url:
 baseurl:
 exclude:
-  - 'site_template'
+  - '/vendor'
   - 'README.md'
   - '.gitignore'
   - 'package.json'
@@ -12,11 +12,6 @@ exclude:
   - 'Gemfile'
   - '_assets'
   - '_tests'
-  - 'ruby'
-  - 'gems'
-  - 'site_template'
-  - 'ruby'
-  - '0000-00-00-welcome-to-jekyll.markdown.erb'
 permalink: pretty
 gems:
   - jekyll-sitemap
