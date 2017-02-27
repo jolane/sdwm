@@ -2,7 +2,7 @@ dependencies:
   post:
     - ls
     - pwd
-    - bundle exec jekyll build
+    - bundle exec jekyll build --verbose
 test:
   post:
     - bundle exec htmlproofer ./_site --check-html --disable-external
