@@ -2,9 +2,6 @@ dependencies:
   post:
     - rm -rf vendor/bundle/ruby/2.2.0/gems/jekyll-3.3.0/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
     - bundle exec jekyll build --verbose
-test:
-  post:
-    - bundle exec htmlproofer ./_site --check-html --disable-external
 deployment:
   prod:
     branch: master
