@@ -24,8 +24,6 @@ for(let i = 0; i < scrollDownButtons.length; i++) {
 }
 
 
-
-
 const bodyEl = document.querySelector('body');
 if(bodyEl.classList.contains('home-page')) {
 	let introHeight = document.querySelector('.Intro').offsetHeight;
