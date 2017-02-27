@@ -1,5 +1,7 @@
 dependencies:
   post:
+    - ls
+    - pwd
     - bundle exec jekyll build
 test:
   post:
