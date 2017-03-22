@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Mr Burger
 sub-title: Brand Identity
 home-text: Designing Australia’s<br>favourite burger brand

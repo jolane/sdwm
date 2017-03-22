@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+
+<section class="ProjectIntro">
+	<div class="ProjectIntro-heading">
+		{{page.title}}<br>
+		{{page.sub-title}}
+	</div>
+
+	<div class="ProjectIntro-content">
+		<div class="ProjectIntro-heading ProjectIntro-heading--spacer">
+			{{page.title}}<br>
+			{{page.sub-title}}
+		</div>
+		<div class="ProjectIntro-text">
+			{{content}}
+		</div>
+	</div>
+	<div class="ProjectIntro-controls js-toggle-details">
+		Details
+	</div>
+</section>
+
+
+
+{% for section in page.sections %}
+	{% if section.type == 'video' %}
+		<section class="Video">
+			<iframe class="Video-embed" src="https://player.vimeo.com/video/{{section.code}}?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</section>
+	{% elsif section.type == 'image' %}
+		<section class="Image">
+			<img src="{{site.baseurl}}{{section.src}}" alt="{{section.alt}}">
+		</section>
+	{% elsif section.type == 'slider' %}
+		<section class="Slider">
+			{% for slide in section.slides %}
+			<img src="{{site.baseurl}}/assets/images/{{slide}}" class="Slider-slide">
+			{% endfor %}
+		</section>
+	{% elsif section.type == 'ipad' %}
+		<section class="iPad">
+			<div class="iPad-frame">
+				<div class="iPad-device">
+					<div class="iPad-screen">
+						<div class="iPad-slider">
+							{% for slide in section.slides %}
+							<div class="iPad-slide" style="background-image:url({{site.baseurl}}/assets/images/{{slide}});"></div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	{% endif %}
+{% endfor %}
