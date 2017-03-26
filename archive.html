@@ -14,7 +14,7 @@ title: Archive
 			{{page.title}}
 		</div>
 		<div class="ProjectIntro-text">
-			We/ve been fortunate enough to work for some of the world's best advertising agencies, on some of the most iconic brands around. Here are some of the ideas and campaigns we helped create in our previous agency lives.
+			We've been fortunate enough to work for some of the world's best advertising agencies, on some of the most iconic brands around. Here are some of the ideas and campaigns we helped create in our previous agency lives.
 		</div>
 	</div>
 	<div class="ProjectIntro-controls js-toggle-details">
@@ -26,11 +26,11 @@ title: Archive
 {% assign archives = site.archives | sort: "order" %}
 <section class="ArchiveList">
 {% for archive in archives %}
-	<a href="{{archive.url}}" class="ArchiveList-item">
+	<a href="{{archive.url}}" class="ArchiveList-item {% if archive.text-color == 'black' %}ArchiveList-item--black{% endif %}">
 		<picture class="ArchiveList-itemThumb">
-			<source srcset="{{site.baseurl}}/assets/images/{{archive.image}}" type="image/webp">
-			<source srcset="{{site.baseurl}}/assets/images/{{archive.image}}" type="image/webp">
-			<img src="{{site.baseurl}}" alt="Thumbnail image of {{archive.title}}">
+			<source srcset="{{site.baseurl}}/assets/images/{{archive.thumb}}.webp" type="image/webp">
+			<source srcset="{{site.baseurl}}/assets/images/{{archive.thumb}}.jpg" type="image/jpg">
+			<img src="{{site.baseurl}}/assets/images/{{archive.thumb}}.jpg" alt="Thumbnail image of {{archive.title}}">
 		</picture>
 		<h3 class="ArchiveList-itemTitle">
 			{{archive.title}}
