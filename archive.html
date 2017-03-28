@@ -23,7 +23,7 @@ title: Archive
 </section>
 
 
-{% assign archives = site.archives | sort: "order" %}
+{% assign archives = site.archive | sort: "order" %}
 <section class="ArchiveList">
 {% for archive in archives %}
 	<a href="{{archive.url}}" class="ArchiveList-item {% if archive.text-color == 'black' %}ArchiveList-item--black{% endif %}">

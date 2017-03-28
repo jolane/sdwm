@@ -1,7 +1,7 @@
 ---
 title: DrinkWise 'How to Drink Properly'
 order: 2
-thumb: archive-bond-collectibles-thumb
+thumb: archive-drinkwise-thumb
 text-color: black
 sections:
   - type: image

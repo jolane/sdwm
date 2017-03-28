@@ -25,14 +25,14 @@ collections:
   projects:
     output: true
     path: /projects/:path/
-  archives:
+  archive:
     output: true
     path: /archive/:path/
 defaults:
   -
     scope:
       path: ""
-      type: "archives"
+      type: "archive"
     values:
       layout: "project"
   -
