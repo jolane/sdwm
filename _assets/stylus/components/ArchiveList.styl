@@ -1,15 +1,18 @@
 item_spacing = 30px
 .ArchiveList
 	width 100%
+	padding 0 item_spacing
 	display flex
 	flex-direction row
 	justify-content space-between
 	flex-wrap wrap
 	&-item
 		width 50%
+		width 'calc(50% - %s)' % (item_spacing / 2)
 		background-color #ececec
 		display inline-block
 		position relative
+		margin-bottom item_spacing
 		&:after
 			content ''
 			display block

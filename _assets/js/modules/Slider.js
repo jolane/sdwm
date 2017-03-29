@@ -11,7 +11,8 @@ if(Sliders) {
 			cellSelector: '.Slider-slide',
 			prevNextButtons: false,
 			wrapAround: true,
-			imagesLoaded: true
+			imagesLoaded: true,
+			autoPlay: 6000
 		});
 
 

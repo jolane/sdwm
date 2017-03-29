@@ -914,7 +914,8 @@
 				cellSelector: '.Slider-slide',
 				prevNextButtons: false,
 				wrapAround: true,
-				imagesLoaded: true
+				imagesLoaded: true,
+				autoPlay: 6000
 			});
 	
 			// const next = document.querySelector('.Slider-next');
