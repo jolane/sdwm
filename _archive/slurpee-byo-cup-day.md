@@ -1,6 +1,6 @@
 ---
 title: Slurpee BYO Cup Day
-order: 1
+order: 10
 thumb: archive-slurpee-thumb
 text-color: black
 sections:

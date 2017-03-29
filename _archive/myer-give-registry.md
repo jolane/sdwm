@@ -1,6 +1,6 @@
 ---
 title: Myer Give Registry
-order: 1
+order: 7
 thumb: archive-myer-give-reg-thumb
 text-color: black
 sections:

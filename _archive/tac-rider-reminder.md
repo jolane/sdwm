@@ -1,6 +1,6 @@
 ---
 title: TAC Rider Reminder
-order: 1
+order: 11
 thumb: archive-tac-rider-thumb
 sections:
   - type: image

@@ -1,6 +1,6 @@
 ---
 title: Origin Energy
-order: 1
+order: 8
 thumb: archive-origin-thumb
 sections:
   - type: image

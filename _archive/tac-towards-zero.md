@@ -1,6 +1,6 @@
 ---
 title: Toward Zero
-order: 1
+order: 12
 thumb: archive-tac-zero-thumb
 sections:
   - type: slider

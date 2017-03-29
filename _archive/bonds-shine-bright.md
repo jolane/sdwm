@@ -1,6 +1,6 @@
 ---
 title: Bonds Shine Bright
-order: 2
+order: 3
 thumb: archive-bonds-shine-bright-thumb
 sections:
   - type: video

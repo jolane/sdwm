@@ -1,6 +1,6 @@
 ---
 title: Scope See the Person
-order: 1
+order: 9
 thumb: archive-scope-thumb
 sections:
   - type: video

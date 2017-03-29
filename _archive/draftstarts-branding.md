@@ -1,6 +1,6 @@
 ---
 title: Draftstarts Branding
-order: 1
+order: 4
 thumb: archive-draftstart-thumb
 sections:
   - type: slider

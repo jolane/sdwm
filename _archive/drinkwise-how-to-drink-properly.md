@@ -1,6 +1,6 @@
 ---
 title: DrinkWise How to Drink Properly
-order: 2
+order: 5
 thumb: archive-drinkwise-thumb
 text-color: black
 sections:

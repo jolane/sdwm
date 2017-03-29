@@ -1,7 +1,7 @@
 ---
 title: Bonds Boobs
 thumb: archive-bonds-boobs-thumb
-order: 2
+order: 1
 text-color: black
 sections:
   - type: image
