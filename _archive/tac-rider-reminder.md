@@ -1,5 +1,5 @@
 ---
-title: TAC 'Rider Reminder'
+title: TAC Rider Reminder
 order: 1
 thumb: archive-tac-rider-thumb
 sections:
@@ -15,3 +15,6 @@ sections:
   - type: video
     code: 209666714
 ---
+The most dangerous threat to a bike rider is a stationary car. Drivers that forget to check for a cyclist before opening their car doors. A once off message was never going to be enough to curb this potentially fatal issue, so we created a permanent reminder. Designed to feel like a rubber bike handle grip and attached to car door handles, the Rider Reminder prompts drivers to think of cyclists every time they touch it. The initiative is in the process of being implemented across the country and around the world.
+
+Project created at Clemenger BBDO for the Transport Accident Commission (TAC).

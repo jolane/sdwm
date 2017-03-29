@@ -1,5 +1,5 @@
 ---
-title: Myer 'Branding'
+title: Myer
 order: 1
 thumb: archive-myer-branding-thumb
 text-color: black
@@ -42,3 +42,10 @@ sections:
       - archive-myer-branding-m6-03.jpg
       - archive-myer-branding-m6-04.jpg
 ---
+To remain an integral part of the country’s fashion landscape in a changing retail environment,
+Myer needed to evolve their look. To celebrate and respect their rich history whilst looking
+forward and embracing the future, we created the “Modern Heritage” brand positioning. Taking
+cues from the modernist paintings of the 1930’s and the iconic Bourke St store façade, the new
+visual identity unites new and old in a sophisticated brand refresh.
+
+Project created at Clemenger BBDO for Myer.

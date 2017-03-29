@@ -1,5 +1,5 @@
 ---
-title: Myer 'Give Registry'
+title: Myer Give Registry
 order: 1
 thumb: archive-myer-give-reg-thumb
 text-color: black
@@ -18,3 +18,6 @@ sections:
       - archive-myer-give-reg-m4-04.jpg
       - archive-myer-give-reg-m4-05.jpg
 ---
+When a woman leaves abuse, all she often leaves with is her life. Rebuilding it begins with the basics most of us take for granted. Something we knew Myer, Australia’s largest department store, could help with. So we created the Give Registry, a gift registry with a difference. A joint initiative uniting Myer with the Salvation Army, the Give Registry is an essential list of items that women need most when starting over. Hand-picked by survivors of abuse, items ranging from a towel to a teacup can be purchased on behalf of a woman in need. Far from a one-off campaign, The Give Registry now operates year-round at all 67 Myer stores around the country. Helping to rebuild lives, one piece at a time.
+
+Project created at Clemenger BBDO for Myer.

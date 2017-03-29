@@ -1,5 +1,5 @@
 ---
-title: Draftstarts 'Branding'
+title: Draftstarts Branding
 order: 1
 thumb: archive-draftstart-thumb
 sections:
@@ -27,3 +27,6 @@ sections:
       - archive-draftstart-m5-02.jpg
       - archive-draftstart-m5-03.jpg
 ---
+Fantasy sports are a sport in themselves. And with Draftstars’ daily games and real cash prizes, anyone can be a champion. Every aspect of this brand new brand, from name to logo, was designed with a premium sports feel in mind. We launched it to the world with the platform “Making Champions Daily”, an integrated campaign that celebrates the victories of everyday fantasy players in true sporting style. The result: Australia’s biggest and fastest growing daily fantasy platform.
+
+Project created at Clemenger BBDO for Draftstars.

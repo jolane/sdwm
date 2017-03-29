@@ -1,5 +1,5 @@
 ---
-title: DrinkWise 'How to Drink Properly'
+title: DrinkWise How to Drink Properly
 order: 2
 thumb: archive-drinkwise-thumb
 text-color: black
@@ -23,3 +23,6 @@ sections:
   - type: video
     code: 208767941
 ---
+Young Australian’s don’t drink, they get shitfaced. And so far every tactic has failed to curb the epidemic. So instead of telling them not to drink, we did the opposite. We encouraged them to drink, properly. Three campaigns, 20+ films and many awards later the result is Australia’s most successful responsible drinking initative to date.
+
+Project created at Clemenger BBDO for DrinkWise.
