@@ -1,5 +1,5 @@
 ---
-title: Origin Energy
+title: Origin Energy Branding
 order: 8
 thumb: archive-origin-thumb
 sections:

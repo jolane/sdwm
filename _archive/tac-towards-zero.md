@@ -1,5 +1,5 @@
 ---
-title: Toward Zero
+title: Towards Zero Branding
 order: 12
 thumb: archive-tac-zero-thumb
 sections:
