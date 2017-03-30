@@ -24,5 +24,4 @@ sections:
       - project-mrburger-12.jpg
       - project-mrburger-13.jpg
 ---
-
 With a philosophy of burgers, chips, drinks and ‘that’s it’, Mr Burger was built on the idea of keeping things simple. We applied the same thinking to their full brand identity, which extends from logo to packaging, truck designs, store, signage and web. Bold and quickly iconic, the brand now includes 5 stores, a fleet of food trucks and the honour of being voted Melbourne’s best new food truck by The Age.
