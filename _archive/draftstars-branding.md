@@ -1,5 +1,5 @@
 ---
-title: Draftstarts Branding
+title: Draftstars Branding
 order: 4
 thumb: archive-draftstart-thumb
 sections:
