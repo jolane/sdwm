@@ -5467,7 +5467,7 @@
 	var checkElements = function checkElements() {
 		var triggerPoint = window.pageYOffset + window.innerHeight * 0.99;
 		for (var i = 0; i < videos.length; i++) {
-			if ((0, _helpers.getTopOffset)(videos[i]) < triggerPoint) {
+			if ((0, _helpers.getTopOffset)(videos[i]) < triggerPoint && videos[i].getAttribute('data-autoplay') === 'true') {
 				videos[i].classList.add('play');
 				playVideo(videos[i]);
 			}
@@ -5480,7 +5480,7 @@
 	};
 	
 	if (videos) {
-		// checkElements();
+		checkElements();
 	}
 	window.addEventListener('scroll', function (e) {
 		checkElements();

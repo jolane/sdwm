@@ -25,6 +25,7 @@ sections:
       - project-livinglandscape-ipad-06.jpg
   - type: video
     code: 200095753
+    autoplay: true
   - type: slider
     slides:
       - project-livinglandscape-09.jpg
@@ -36,6 +37,7 @@ sections:
       - project-livinglandscape-15.jpg
   - type: video
     code: 200096016
+    autoplay: true
 ---
 
 
