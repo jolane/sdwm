@@ -1,5 +1,5 @@
 ---
-title: Myer
+title: Myer Branding
 order: 6
 thumb: archive-myer-branding-thumb
 text-color: black
