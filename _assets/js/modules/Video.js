@@ -21,7 +21,7 @@ const playVideo = function(videoEl) {
 
 
 if(videos) {
-	checkElements();
+	// checkElements();
 }
 window.addEventListener('scroll', function(e) {
 	checkElements();
