@@ -24,3 +24,27 @@ body-class: our-work-page
 		</a>
 	</section>
 {% endfor %}
+
+<section class="FromArchive">
+	<div class="FromArchive-header">
+		<h3 class="FromArchive-heading">
+			From our archive
+		</h3>
+		<a href="{{site.baseurl}}/archive" title="Archive">See all +</a>
+	</div>
+
+	<ul class="FromArchive-list">
+{% assign archives = site.archive | sort: "order" %}
+{% for archive in archives limit:8 %}
+		<li class="FromArchive-item">
+			<a href="{{archive.url}}" class="FromArchive-link">
+				{{archive.title}}
+				<sup class="FromArchive-super">
+					(via Clemenger BBDO)
+				</sup>
+			</a>
+		</li>
+{% endfor %}
+	</ul>
+
+</section>
