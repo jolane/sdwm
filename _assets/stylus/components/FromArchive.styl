@@ -6,9 +6,12 @@
 		display flex
 		flex-direction row
 		justify-content space-between
+		align-items baseline
 
 	&-heading
 		margin-bottom 5em
+		+below('m')
+			margin-bottom 1.5em
 
 	&-list
 		padding 0
@@ -16,6 +19,8 @@
 		font-size (54/16)em
 		list-style-type none
 		font-family BB
+		+below('m')
+			font-size 4.2vw
 	&-super
 		font-size 0.3em
 		color gray_text
