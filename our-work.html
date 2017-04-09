@@ -3,13 +3,11 @@ layout: default
 title: Our work
 body-class: our-work-page
 ---
-
-
 {% assign projects = site.projects | sort: "order" %}
 
 {% for project in projects %}
 	<section class="LatestWork">
-		<div class="LatestWork-background" style="background-image: url({{site.baseurl}}/assets/images/{{project.poster}});"></div>
+		<div class="LatestWork-background" style="background-image: url({{site.baseurl}}/assets/images/{{project.thumb}}.jpg);"></div>
 		<a href="{{site.baseurl}}{{project.url}}" class="LatestWork-content">
 			<div class="LatestWork-heading">
 			</div>

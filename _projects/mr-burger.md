@@ -2,7 +2,7 @@
 title: Mr Burger
 sub-title: Brand Identity
 home-text: Designing Australia’s<br>favourite burger brand
-poster: project-mrburger-poster.jpg
+thumb: project-mrburger-poster
 order: 2
 sections:
   - type: image

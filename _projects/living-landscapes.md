@@ -2,7 +2,7 @@
 title: La Trobe University
 sub-title: Living Landscapes
 home-text: An experience by La Trobe University. <br>Inspired by David Hockney.
-poster: project-livinglandscape-poster.jpg
+thumb: project-livinglandscape-poster
 order: 1
 sections:
   - type: image

@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-
 <section class="ProjectIntro">
 	<div class="ProjectIntro-heading">
 		{{page.title}}<br>
@@ -56,3 +54,28 @@ layout: default
 		</section>
 	{% endif %}
 {% endfor %}
+
+
+{% if page.next.title == null %}
+	{% if page.collection == 'archive' %}
+		{% assign jpower = site.archive | first %}
+	{% else %}
+		{% assign jpower = site.projects | first %}
+	{% endif %}
+
+{% else %}
+	{% assign jpower = page.next %}
+{% endif %}
+<section class="NextProject">
+	<a href="{{jpower.url}}" class="NextProject-thumb" title="{{jpower.title}}">
+		<img src="{{site.baseurl}}/assets/images/{{jpower.thumb}}.jpg" alt="">
+	</a>
+	<a href="{{jpower.url}}" class="NextProject-text" title="{{jpower.title}}">
+		<span>Next Project</span> {{jpower.title}}
+	</a>
+</section>
+
+
+<a href="mailto:hello@sdwm.com.au" class="NextProject-text NextProject-text--full" title="Contact Us">
+	<span>Ready to start a project?</span> Click here
+</a>
