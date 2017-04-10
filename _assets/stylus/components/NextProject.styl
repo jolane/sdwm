@@ -5,6 +5,10 @@
 	flex-direction row
 	align-items center
 	margin-top 5vw
+	height 25vw
+	overflow hidden
+	+below('m')
+		height 40vw
 
 	&-thumb
 		display block
@@ -12,17 +16,34 @@
 		img
 			width 100%
 			display block
+			+below('m')
+				object-fit cover
+				height 100%
+		+below('m')
+			width 40%
+			height 100%
+
 
 	&-text
 		display block
 		width 50%
 		text-align center
-		font-family margin
+		font-family M
 		font-size (29/16)em
 		padding 2em
 		box-sizing border-box
 		span
 			color gray_text
+			+below('m')
+				display block
+		+below('m')
+			width 60%
+			font-size (18/16)em
+			text-align left
+			padding-left 2em
+			box-sizing border-box
 		&--full
 			width 100%
 			padding 10vw 0
+			+below('m')
+				text-align center
