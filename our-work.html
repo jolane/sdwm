@@ -36,7 +36,7 @@ body-class: our-work-page
 {% for archive in archives limit:8 %}
 		<li class="FromArchive-item">
 			<a href="{{archive.url}}" class="FromArchive-link">
-				{{archive.title}}
+				{{archive.title}} {{archive.sub-title}}
 				<sup class="FromArchive-super">
 					(via Clemenger BBDO)
 				</sup>
